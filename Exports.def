@@ -1,0 +1,18 @@
+LIBRARY "wininet"
+
+EXPORTS
+		InternetSetOptionW @1
+		InternetCloseHandle @2
+		InternetCrackUrlW @3
+		InternetQueryOptionW @4
+		HttpQueryInfoW @5
+		InternetGetConnectedState @6
+		InternetAttemptConnect @7
+		InternetCheckConnectionW @8
+		InternetOpenW @9
+		InternetSetStatusCallbackW @10
+		InternetConnectW @11
+		HttpOpenRequestW @12
+		HttpSendRequestW @13
+		InternetReadFile @14
+		InternetSetCookieW @15
